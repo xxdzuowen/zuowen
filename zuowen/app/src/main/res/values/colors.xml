@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_bgcolor">#ffffff</color>
+    <color name="tab_selectecolor">#41afee</color>
+    <!--标题线条-->
+
+
+
+    <!-- 登陆错误提示颜色 -->
+    <color name="login_red">#ff0000</color>
+    <!--首页背景颜色和标题颜色-->
+    <color name="white_background">#FFFFFF</color>
+    <!--按钮三个边框线颜色-->
+    <color name="stroke_line">#cccccc</color>
+    <!--标题线条-->
+    <color name="title_line">#c8c8c8</color>
+    <!--tab的背景-->
+    <color name="tab_background">#f9efed</color>
+    <!--tab文字的颜色 搜索图标下文字-->
+    <color name="tab_text_color">#666666</color>
+    <!--tab选中文字的颜色-->
+    <color name="tab_text_select_color">#0086d3</color>
+    <!--autotext的边框线条-->
+    <color name="autotext_stroke_line">#c7c8ca</color>
+    <!--首页标题字体-->
+    <color name="title_typeface">#333333</color>
+    <!--列表的标题-->
+    <color name="list_title">#504f4d</color>
+    <!--列表的作者和日期-->
+    <color name="list_author">#d8be8b</color>
+    <!--列表的简介-->
+    <color name="list_content">#999592</color>
+    <!--列表的标签-->
+    <color name="list_tag">#999999</color>
+    <!--列表条目按下背景的颜色-->
+    <color name="list_background_press">#f8f8f8</color>
+    <!--列表条目线条的颜色-->
+    <color name="list_item_line">#dddddd</color>
+    <!--投稿标题提示字体-->
+    <color name="contribute_title_hint">#d3d3d3</color>
+    <!--投稿活动选择字体-->
+    <color name="contribute_selector_text">#706a62</color>
+
+    <color name="contribute_popwindow_save">#46d862</color>
+    <color name="contribute_popwindow_edit">#ff6f3d</color>
+    <color name="contribute_popwindow_cancle">#706a62</color>
+
+    <color name="contribute_popwindow_background">#f6f6f6</color>
+
+    <!--搜索提示-->
+    <color name="search_hint">#bababa</color>
+
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="detail_background">#0096a6</color>
+    <color name="soft_opaque">#30000000</color>
+    <color name="img_soft_opaque">#30FF0000</color>
+    <color name="img_full_opaque">#00000000</color>
+    <color name="black_opaque">#AA000000</color>
+    <color name="black">#59000000</color>
+
+    <color name="orange_transparent">#AAFADCA7</color>
+    <color name="orange">#FADCA7</color>
+    <color name="yellow">#EEFF41</color>
+    <color name="default_background">#3d3d3d</color>
+
+</resources>

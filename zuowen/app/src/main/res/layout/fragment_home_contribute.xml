@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="我要投稿"
+            android:textSize="24sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/title_typeface"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment_home_contribute_commit"
+            android:text="投稿"
+            android:textSize="21sp"
+            android:layout_alignParentRight="true"
+            android:paddingRight="8dp"
+            android:textColor="@color/contribute_selector_text"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@null"
+        android:textColorHint="@color/contribute_title_hint"
+        android:hint="请输入标题" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#c8c8c8"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        >
+        <com.zuowen.magic.view.XCDropDownListView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_article"
+            android:layout_marginRight="15dp"
+            />
+        <com.zuowen.magic.view.XCDropDownListView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:id="@+id/tv_activity"
+            android:layout_marginRight="15dp"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#c8c8c8"
+        />
+    <EditText
+        android:id="@+id/edt_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="top"
+        android:background="@null"
+        android:maxLength="10000"
+        android:hint="请输入正文"
+        android:textColor="@color/contribute_selector_text"
+        android:textColorHint="@color/contribute_title_hint"
+        android:textSize="17.0sp" />
+</LinearLayout>

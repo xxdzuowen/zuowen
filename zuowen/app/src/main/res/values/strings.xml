@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">zuowen</string>
+    <string name="connect_server_fail">连接服务失败，请确认网络是否通畅！</string>
+</resources>

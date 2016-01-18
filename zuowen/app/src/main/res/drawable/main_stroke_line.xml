@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding
+        android:right="1dp"
+        android:top="1dp" />
+    <!--背景颜色-->
+    <solid android:color="@color/white_background" />
+    <!--控制边界线颜色和大小-->
+    <stroke
+        android:width="0.5dp"
+        android:color="@color/stroke_line"
+        />
+</shape>
+

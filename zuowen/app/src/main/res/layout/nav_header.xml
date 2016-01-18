@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="25dp"
+    android:background="@color/tab_text_select_color"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <ImageView
+        android:id="@+id/iv_myphoto"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:src="@mipmap/login_author"
+        android:layout_gravity="bottom"
+        />
+    <TextView
+        android:id="@+id/penname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="笔名"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/iv_myphoto"
+        android:layout_toEndOf="@+id/iv_myphoto"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:id="@+id/grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小学一年级"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_alignBottom="@+id/iv_myphoto"
+        android:layout_toRightOf="@+id/iv_myphoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/maidou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="麦豆：100001"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_alignBottom="@+id/iv_myphoto"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/img_sex"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/penname"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/penname"
+        android:src="@mipmap/my_man"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/img_wsex"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/penname"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/penname"
+        android:src="@mipmap/my_women"
+        android:visibility="gone" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="世界语言千千万,最美不过是中文"
+        android:layout_below="@+id/iv_myphoto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

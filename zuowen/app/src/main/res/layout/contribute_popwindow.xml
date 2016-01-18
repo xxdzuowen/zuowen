@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/popupwindow_selectmajororsub_bglayout"
+    android:background="@color/white_background"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/popupwindow_selectmajororsub_commit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="保存到草稿箱"
+        android:textSize="17sp"
+        android:textColor="@color/contribute_popwindow_save"
+        android:background="@color/contribute_popwindow_background"
+        />
+    <TextView
+        android:id="@+id/popupwindow_selectmajororsub_edit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="放弃编辑"
+        android:textSize="17sp"
+        android:textColor="@color/contribute_popwindow_edit"
+        android:background="@color/contribute_popwindow_background"
+        />
+    <TextView
+        android:id="@+id/popupwindow_selectmajororsub_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:layout_marginTop="3dp"
+        android:text="取消"
+        android:textSize="17sp"
+        android:textColor="@color/contribute_popwindow_cancle"
+        android:background="@color/contribute_popwindow_background"
+        />
+</LinearLayout>

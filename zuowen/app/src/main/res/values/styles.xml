@@ -1,0 +1,28 @@
+<resources>
+
+     <style name="AppTheme" parent="AppTheme.Base"></style>
+
+
+
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <!-- Actionbar color -->
+        <item name="colorPrimary">#ffffff</item>
+        <!--Status bar color-->
+        <item name="colorPrimaryDark">#000000</item>
+        <!--edtex选择颜色和选择 进度条颜色-->
+        <item name="colorAccent">#FF4081</item>
+
+        <item name="android:textColorPrimary">#000000</item>
+        <!--Window color-->
+        <item name="android:windowBackground">@color/dim_foreground_material_dark</item>
+    </style>
+
+
+    <style name="select_pic_dialog_style" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/select_pic_dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/select_pic_dialog_exit</item>
+    </style>
+</resources>

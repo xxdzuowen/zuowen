@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#f9efed"
+        android:layout_height="48dp">
+
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toLeftOf="@+id/view_search_btn"
+            android:background="@drawable/seach_tangle_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/view_search_img"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="8dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/search"/>
+            <com.zuowen.magic.view.CustomEditTextView
+                android:layout_toRightOf="@+id/view_search_img"
+                android:textSize="14sp"
+                android:id="@+id/view_search_content"
+                android:layout_width="match_parent"
+                android:textColor="@color/list_title"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/view_search_clear"
+                android:layout_centerVertical="true"
+                android:textColorHint="@color/list_content"
+                android:hint="搜索"/>
+
+            <ImageView
+
+                android:id="@+id/view_search_clear"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:paddingRight="3dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/zuowen_clear_search"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/view_search_btn"
+            android:text="搜索"
+            android:gravity="center"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:textColor="@color/tab_text_select_color"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
