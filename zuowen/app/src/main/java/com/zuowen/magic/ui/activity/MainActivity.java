@@ -35,10 +35,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by tool on 16/1/15.
+ * Created by tool on 16/1/15. 实打实大苏打实打实大苏打撒打算
  */
 public class MainActivity extends BaseActivity implements View.OnClickListener{
-
+    private  String JJ="xixixixixixixixixi";
     public static final String PAGER_MODEL="catagory";
     /**
      * 不能滚动切换的viewpager
